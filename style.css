@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1556695736-d287caebc48e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);  
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+.el{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    backdrop-filter: blur(5px)
+
+}
+
+
+button{
+    padding: 10px 24px;   
+}
+
+.btn{
+    width: 100%;
+}
+
+.btn button{
+    width: 60%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#increment-btn{
+   background-color: #04AA6D;
+    color: white;
+    border: none;   
+}
+
+#save-btn{
+    background-color: #f44336;
+     color: white;
+     border: none;
+     
+ }
